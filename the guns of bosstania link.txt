@@ -1,0 +1,15 @@
+html
+
+<head>
+
+<title>the guns of Bosstania</title>
+
+</head>
+
+<body bg colour="brown">
+
+<img src="1282 bullet.png"/>
+
+</body>
+
+html
