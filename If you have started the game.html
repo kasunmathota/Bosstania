@@ -13,7 +13,7 @@ body {
 .button {
     display: block;
     width: 115px;
-    height: 25px;
+    height: 75px;
     background: #2F1BAC;
     padding: 10px;
     text-align: center;
@@ -23,6 +23,13 @@ body {
 }
 </style>
 
+<script>
+function myFunction() {
+    document.getElementById("demo1").innerHTML ="Welcome to Bosstania";
+	document.body.style.background = '#90FE0F';
+}
+</script>
+
 <title>If you have started the Game</title>
 
 <link rel="icon" type="image/png" href="icon bosstania2.png" />
@@ -31,10 +38,11 @@ body {
 
 <body>
 
-<a class="button">
-<span class="content">Have you got it<span/>
+<input class="button" onclick="myFunction()" type="submit" value="Have you got it"/>
 
-</a>
+<p id="demo1"></p>
+
+
 
 </body>
 
