@@ -27,15 +27,47 @@
 
 	display:block;
 	height:50px;
-	width:125px;
+	width:175px;
 	float:left;
 	background-color:red;
 	border-right:1px solid #000;
 	font-family:Cooper Black;
 
 	}
+	
+.body {
+
+	background-color: #FFAC00;
+	font-family:Calibri;
+
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 75px;
+    background: #2F1BAC;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+}
 
 </style>
+
+<script>
+function myFunction() {
+    document.getElementById("demo1").innerHTML ="Who are you !!! Oh your the new hitman !! My name is Comander Jef and I will help you on you mission";
+	document.body.style.background = '#90FE0F';
+}
+</script>
+
+<title>If you have started the Game</title>
+
+<link rel="icon" type="image/png" href="icon bosstania2.png" />
+
+</head>
 
 <body bgcolor="#FFBF00">
 
@@ -52,39 +84,10 @@
 </ul>
 
 </div>
-.body {
-
-	background-color: #FFAC00;
-	font-family:Calibri;
-}
-
-.button {
-    display: block;
-    width: 115px;
-    height: 75px;
-    background: #2F1BAC;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: red;
-    font-weight: bold;
-}
-</style>
-
-<script>
-function myFunction() {
-    document.getElementById("demo1").innerHTML ="Who are you !!! Oh your the new hitman !! My name is Comander Jef and I will help you on you mission";
-	document.body.style.background = '#90FE0F';
-}
-</script>
-
-<title>If you have started the Game</title>
-
-<link rel="icon" type="image/png" href="icon bosstania2.png" />
-
-</head>
-
-<body>
+<br>
+<br>
+<br>
+<br>
 
 <input class="button" onclick="myFunction()" type="submit" value="Have you got it"/>
 
